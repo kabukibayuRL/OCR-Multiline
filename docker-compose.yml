@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  OCR-Multiline:
+    image: mcr.microsoft.com/dotnet/aspnet:8.0
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
