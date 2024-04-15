@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OCR-Multiline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b22bf956ec1fda7a163b6e09296ae6ab75f58293")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287a3f72f7f3baabd212955df0e9508e9c14b71d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OCR-Multiline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OCR-Multiline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

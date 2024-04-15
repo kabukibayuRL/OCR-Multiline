@@ -124,43 +124,43 @@ namespace OCRMultiline.Services
             
             ImageAnalysisResult result = analyzer.Analyze();
             if (result?.Text?.Lines != null)
-{
-    Console.WriteLine(result.Text.Lines.Count);
-    // Your other logic here
-}
-else
-{
-    Console.WriteLine("Text or Lines is null");
-    // Handle the case where result.Text or result.Text.Lines is null
-}
-            // int mergedMinY = 0;
-            // int mergedMaxY = 0;
-            // bool isFirstLine = true;
-            // StringBuilder mergedLineContent = new StringBuilder();
+                {
+                    Console.WriteLine(result.Text.Lines.Count);
+                    int mergedMinY = 0;
+            int mergedMaxY = 0;
+            bool isFirstLine = true;
+            StringBuilder mergedLineContent = new StringBuilder();
 
-            // for (int x = 0; x < result.Text.Lines.Count; x++)
-            // {
-            //     DetectedTextLine detectedTextLine = result.Text.Lines[x];
+            for (int x = 0; x < result.Text.Lines.Count; x++)
+            {
+                DetectedTextLine detectedTextLine = result.Text.Lines[x];
 
-            //     int currentMinY = detectedTextLine.BoundingPolygon.Min(p => p.Y);
-            //     int currentMaxY = detectedTextLine.BoundingPolygon.Max(p => p.Y);
+                int currentMinY = detectedTextLine.BoundingPolygon.Min(p => p.Y);
+                int currentMaxY = detectedTextLine.BoundingPolygon.Max(p => p.Y);
 
-            //     if (!isFirstLine && currentMinY <= mergedMaxY)
-            //     {
-            //         mergedMaxY = Math.Max(mergedMaxY, currentMaxY);
-            //         mergedLineContent.Append(" " + detectedTextLine.Content);
-            //     }
-            //     else
-            //     {
-            //         listOfData.Add(mergedLineContent.ToString());
-            //         mergedMinY = currentMinY;
-            //         mergedMaxY = currentMaxY;
-            //         mergedLineContent.Clear().Append(detectedTextLine.Content);
-            //         isFirstLine = false;
-            //     }
-            // }
+                if (!isFirstLine && currentMinY <= mergedMaxY)
+                {
+                    mergedMaxY = Math.Max(mergedMaxY, currentMaxY);
+                    mergedLineContent.Append(" " + detectedTextLine.Content);
+                }
+                else
+                {
+                    listOfData.Add(mergedLineContent.ToString());
+                    mergedMinY = currentMinY;
+                    mergedMaxY = currentMaxY;
+                    mergedLineContent.Clear().Append(detectedTextLine.Content);
+                    isFirstLine = false;
+                }
+            }
 
-            return [];
+            return listOfData;
+                }
+                else
+                {
+                    Console.WriteLine("Text or Lines is null");
+                    return [];
+                }
+            
         }
     }
 }
