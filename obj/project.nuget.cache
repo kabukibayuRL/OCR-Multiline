@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8X/yFqb3WMPOelSQRfcrVHLelVeGf/uNyjaXbhKJ2adD+tuXpk341T+xJJ5f6/6W6TLi9946iCGkXNUrkIUCYA==",
+  "dgSpecHash": "6/6+mpuZfexxr4SA/eQ22D6Cd7CuPm0DQUvpAMovHmGQUd6wsG4tifkFeGa06ZaZOojHyqJqK/gwgUeDN2Z+fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\OCR-Multiline.csproj",
+  "projectFilePath": "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\OCR-Multiline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\N I T R O\\.nuget\\packages\\azure.ai.vision.common\\0.15.1-beta.1\\azure.ai.vision.common.0.15.1-beta.1.nupkg.sha512",
     "C:\\Users\\N I T R O\\.nuget\\packages\\azure.ai.vision.core\\0.10.0-beta.1\\azure.ai.vision.core.0.10.0-beta.1.nupkg.sha512",

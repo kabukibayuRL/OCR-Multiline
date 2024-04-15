@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\OCR-Multiline.csproj": {}
+    "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\OCR-Multiline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\OCR-Multiline.csproj": {
+    "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\OCR-Multiline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\OCR-Multiline.csproj",
+        "projectUniqueName": "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\OCR-Multiline.csproj",
         "projectName": "OCR-Multiline",
-        "projectPath": "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\OCR-Multiline.csproj",
+        "projectPath": "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\OCR-Multiline.csproj",
         "packagesPath": "C:\\Users\\N I T R O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\N I T R O\\Documents\\GitHub\\RadyaLab\\OCR-Multiline\\obj\\",
+        "outputPath": "C:\\Users\\N I T R O\\Documents\\GitHub\\ocr-multiline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\N I T R O\\AppData\\Roaming\\NuGet\\NuGet.Config",
